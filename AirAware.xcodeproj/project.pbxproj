@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A7C4E032A86009800FEFFBC /* AirAwareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C4E022A86009800FEFFBC /* AirAwareApp.swift */; };
+		0A7C4E052A86009800FEFFBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C4E042A86009800FEFFBC /* ContentView.swift */; };
+		0A7C4E072A86009900FEFFBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7C4E062A86009900FEFFBC /* Assets.xcassets */; };
+		0A7C4E0A2A86009900FEFFBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7C4E092A86009900FEFFBC /* Preview Assets.xcassets */; };
+		0A7C4E142A86009900FEFFBC /* AirAwareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C4E132A86009900FEFFBC /* AirAwareTests.swift */; };
+		0A7C4E1E2A86009900FEFFBC /* AirAwareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C4E1D2A86009900FEFFBC /* AirAwareUITests.swift */; };
+		0A7C4E202A86009900FEFFBC /* AirAwareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C4E1F2A86009900FEFFBC /* AirAwareUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A7C4E102A86009900FEFFBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A7C4DF72A86009800FEFFBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A7C4DFE2A86009800FEFFBC;
+			remoteInfo = AirAware;
+		};
+		0A7C4E1A2A86009900FEFFBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A7C4DF72A86009800FEFFBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A7C4DFE2A86009800FEFFBC;
+			remoteInfo = AirAware;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A7C4DFF2A86009800FEFFBC /* AirAware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirAware.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7C4E022A86009800FEFFBC /* AirAwareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirAwareApp.swift; sourceTree = "<group>"; };
+		0A7C4E042A86009800FEFFBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0A7C4E062A86009900FEFFBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A7C4E092A86009900FEFFBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0A7C4E0F2A86009900FEFFBC /* AirAwareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirAwareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7C4E132A86009900FEFFBC /* AirAwareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirAwareTests.swift; sourceTree = "<group>"; };
+		0A7C4E192A86009900FEFFBC /* AirAwareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirAwareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7C4E1D2A86009900FEFFBC /* AirAwareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirAwareUITests.swift; sourceTree = "<group>"; };
+		0A7C4E1F2A86009900FEFFBC /* AirAwareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirAwareUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A7C4DFC2A86009800FEFFBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7C4E0C2A86009900FEFFBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7C4E162A86009900FEFFBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A7C4DF62A86009800FEFFBC = {
+			isa = PBXGroup;
+			children = (
+				0A7C4E012A86009800FEFFBC /* AirAware */,
+				0A7C4E122A86009900FEFFBC /* AirAwareTests */,
+				0A7C4E1C2A86009900FEFFBC /* AirAwareUITests */,
+				0A7C4E002A86009800FEFFBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A7C4E002A86009800FEFFBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A7C4DFF2A86009800FEFFBC /* AirAware.app */,
+				0A7C4E0F2A86009900FEFFBC /* AirAwareTests.xctest */,
+				0A7C4E192A86009900FEFFBC /* AirAwareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A7C4E012A86009800FEFFBC /* AirAware */ = {
+			isa = PBXGroup;
+			children = (
+				0A7C4E022A86009800FEFFBC /* AirAwareApp.swift */,
+				0A7C4E042A86009800FEFFBC /* ContentView.swift */,
+				0A7C4E062A86009900FEFFBC /* Assets.xcassets */,
+				0A7C4E082A86009900FEFFBC /* Preview Content */,
+			);
+			path = AirAware;
+			sourceTree = "<group>";
+		};
+		0A7C4E082A86009900FEFFBC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0A7C4E092A86009900FEFFBC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0A7C4E122A86009900FEFFBC /* AirAwareTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A7C4E132A86009900FEFFBC /* AirAwareTests.swift */,
+			);
+			path = AirAwareTests;
+			sourceTree = "<group>";
+		};
+		0A7C4E1C2A86009900FEFFBC /* AirAwareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A7C4E1D2A86009900FEFFBC /* AirAwareUITests.swift */,
+				0A7C4E1F2A86009900FEFFBC /* AirAwareUITestsLaunchTests.swift */,
+			);
+			path = AirAwareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A7C4DFE2A86009800FEFFBC /* AirAware */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A7C4E232A86009900FEFFBC /* Build configuration list for PBXNativeTarget "AirAware" */;
+			buildPhases = (
+				0A7C4DFB2A86009800FEFFBC /* Sources */,
+				0A7C4DFC2A86009800FEFFBC /* Frameworks */,
+				0A7C4DFD2A86009800FEFFBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirAware;
+			productName = AirAware;
+			productReference = 0A7C4DFF2A86009800FEFFBC /* AirAware.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A7C4E0E2A86009900FEFFBC /* AirAwareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A7C4E262A86009900FEFFBC /* Build configuration list for PBXNativeTarget "AirAwareTests" */;
+			buildPhases = (
+				0A7C4E0B2A86009900FEFFBC /* Sources */,
+				0A7C4E0C2A86009900FEFFBC /* Frameworks */,
+				0A7C4E0D2A86009900FEFFBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A7C4E112A86009900FEFFBC /* PBXTargetDependency */,
+			);
+			name = AirAwareTests;
+			productName = AirAwareTests;
+			productReference = 0A7C4E0F2A86009900FEFFBC /* AirAwareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A7C4E182A86009900FEFFBC /* AirAwareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A7C4E292A86009900FEFFBC /* Build configuration list for PBXNativeTarget "AirAwareUITests" */;
+			buildPhases = (
+				0A7C4E152A86009900FEFFBC /* Sources */,
+				0A7C4E162A86009900FEFFBC /* Frameworks */,
+				0A7C4E172A86009900FEFFBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A7C4E1B2A86009900FEFFBC /* PBXTargetDependency */,
+			);
+			name = AirAwareUITests;
+			productName = AirAwareUITests;
+			productReference = 0A7C4E192A86009900FEFFBC /* AirAwareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A7C4DF72A86009800FEFFBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0A7C4DFE2A86009800FEFFBC = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					0A7C4E0E2A86009900FEFFBC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0A7C4DFE2A86009800FEFFBC;
+					};
+					0A7C4E182A86009900FEFFBC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0A7C4DFE2A86009800FEFFBC;
+					};
+				};
+			};
+			buildConfigurationList = 0A7C4DFA2A86009800FEFFBC /* Build configuration list for PBXProject "AirAware" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A7C4DF62A86009800FEFFBC;
+			productRefGroup = 0A7C4E002A86009800FEFFBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A7C4DFE2A86009800FEFFBC /* AirAware */,
+				0A7C4E0E2A86009900FEFFBC /* AirAwareTests */,
+				0A7C4E182A86009900FEFFBC /* AirAwareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A7C4DFD2A86009800FEFFBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7C4E0A2A86009900FEFFBC /* Preview Assets.xcassets in Resources */,
+				0A7C4E072A86009900FEFFBC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7C4E0D2A86009900FEFFBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7C4E172A86009900FEFFBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A7C4DFB2A86009800FEFFBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7C4E052A86009800FEFFBC /* ContentView.swift in Sources */,
+				0A7C4E032A86009800FEFFBC /* AirAwareApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7C4E0B2A86009900FEFFBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7C4E142A86009900FEFFBC /* AirAwareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7C4E152A86009900FEFFBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7C4E202A86009900FEFFBC /* AirAwareUITestsLaunchTests.swift in Sources */,
+				0A7C4E1E2A86009900FEFFBC /* AirAwareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A7C4E112A86009900FEFFBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A7C4DFE2A86009800FEFFBC /* AirAware */;
+			targetProxy = 0A7C4E102A86009900FEFFBC /* PBXContainerItemProxy */;
+		};
+		0A7C4E1B2A86009900FEFFBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A7C4DFE2A86009800FEFFBC /* AirAware */;
+			targetProxy = 0A7C4E1A2A86009900FEFFBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A7C4E212A86009900FEFFBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A7C4E222A86009900FEFFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A7C4E242A86009900FEFFBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AirAware/Preview Content\"";
+				DEVELOPMENT_TEAM = T4P4J5BTCZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "burger-and-salad.AirAware";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A7C4E252A86009900FEFFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AirAware/Preview Content\"";
+				DEVELOPMENT_TEAM = T4P4J5BTCZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "burger-and-salad.AirAware";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A7C4E272A86009900FEFFBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T4P4J5BTCZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "burger-and-salad.AirAwareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirAware.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AirAware";
+			};
+			name = Debug;
+		};
+		0A7C4E282A86009900FEFFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T4P4J5BTCZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "burger-and-salad.AirAwareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirAware.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AirAware";
+			};
+			name = Release;
+		};
+		0A7C4E2A2A86009900FEFFBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T4P4J5BTCZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "burger-and-salad.AirAwareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirAware;
+			};
+			name = Debug;
+		};
+		0A7C4E2B2A86009900FEFFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T4P4J5BTCZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "burger-and-salad.AirAwareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirAware;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A7C4DFA2A86009800FEFFBC /* Build configuration list for PBXProject "AirAware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7C4E212A86009900FEFFBC /* Debug */,
+				0A7C4E222A86009900FEFFBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A7C4E232A86009900FEFFBC /* Build configuration list for PBXNativeTarget "AirAware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7C4E242A86009900FEFFBC /* Debug */,
+				0A7C4E252A86009900FEFFBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A7C4E262A86009900FEFFBC /* Build configuration list for PBXNativeTarget "AirAwareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7C4E272A86009900FEFFBC /* Debug */,
+				0A7C4E282A86009900FEFFBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A7C4E292A86009900FEFFBC /* Build configuration list for PBXNativeTarget "AirAwareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7C4E2A2A86009900FEFFBC /* Debug */,
+				0A7C4E2B2A86009900FEFFBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A7C4DF72A86009800FEFFBC /* Project object */;
+}
